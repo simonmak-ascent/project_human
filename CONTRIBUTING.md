@@ -31,7 +31,7 @@ Humanity4AI uses a two-tier branching strategy:
 ```
 feature/* ──► development  (all contributor code — this is the default branch)
                   │
-                  ▼  planned releases only, by @simonplmak-cloud or @humanity4ai
+                  ▼  planned releases only, by @simonmak-ascent or @humanity4ai
                 main  (stable, production-ready releases)
 ```
 
@@ -63,12 +63,12 @@ When the `development` branch is ready for release, maintainers open a promotion
 
 | Path | Reviewers | Notes |
 |------|-----------|-------|
-| Any file | `@simonplmak-cloud` | Global owner — all PRs |
-| `skills/supportive-conversation/` | `@simonplmak-cloud` | Safety-critical |
-| `skills/grief-loss-support/` | `@simonplmak-cloud` | Safety-critical |
-| `skills/depression-sensitive-content/` | `@simonplmak-cloud` | Safety-critical |
-| `mcp-servers/` | `@simonplmak-cloud` | Runtime and contracts |
-| `GOVERNANCE.md`, `SECURITY.md`, `CODE_OF_CONDUCT.md` | `@simonplmak-cloud` | Policy files |
+| Any file | `@simonmak-ascent` | Global owner — all PRs |
+| `skills/supportive-conversation/` | `@simonmak-ascent` | Safety-critical |
+| `skills/grief-loss-support/` | `@simonmak-ascent` | Safety-critical |
+| `skills/depression-sensitive-content/` | `@simonmak-ascent` | Safety-critical |
+| `mcp-servers/` | `@simonmak-ascent` | Runtime and contracts |
+| `GOVERNANCE.md`, `SECURITY.md`, `CODE_OF_CONDUCT.md` | `@simonmak-ascent` | Policy files |
 
 All PRs require 1 approving review before merge. Safety-critical paths require the CODEOWNERS reviewer specifically.
 
@@ -253,7 +253,7 @@ Both `development` and `main` are protected branches.
 
 ### `main` (stable releases — maintainers only)
 
-- Only `@simonplmak-cloud` and `@humanity4ai` may open PRs targeting `main`
+- Only `@simonmak-ascent` and `@humanity4ai` may open PRs targeting `main`
 - 1 approving review required
 - CI re-runs as a final release gate (Option A)
 - Force pushes blocked

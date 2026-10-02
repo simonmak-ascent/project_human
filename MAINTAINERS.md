@@ -4,7 +4,7 @@
 
 | Name | GitHub | Role |
 |------|--------|------|
-| Ascent Partners Foundation | @simonplmak-cloud | Founding maintainer |
+| Ascent Partners Foundation | @simonmak-ascent | Founding maintainer |
 
 ## Responsibilities
 

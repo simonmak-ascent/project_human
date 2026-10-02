@@ -1,23 +1,23 @@
 # Branch model:
 #   feature/* ──► development  (all contributor code — default branch)
-#   development ──► main        (planned releases only, by @simonplmak-cloud or @humanity4ai)
+#   development ──► main        (planned releases only, by @simonmak-ascent or @humanity4ai)
 #
 # CODEOWNERS applies to PRs targeting both development and main.
 
 # Global owner — reviews all PRs by default
-* @simonplmak-cloud @humanity4ai
+* @simonmak-ascent @humanity4ai
 
 # Safety-critical skills require explicit review
-/skills/supportive-conversation/ @simonplmak-cloud
-/skills/grief-loss-support/ @simonplmak-cloud
-/skills/depression-sensitive-content/ @simonplmak-cloud
+/skills/supportive-conversation/ @simonmak-ascent
+/skills/grief-loss-support/ @simonmak-ascent
+/skills/depression-sensitive-content/ @simonmak-ascent
 
 # MCP server and schemas
-/mcp-servers/ @simonplmak-cloud
+/mcp-servers/ @simonmak-ascent
 
 # Governance and policy files
-/GOVERNANCE.md @simonplmak-cloud
-/SECURITY.md @simonplmak-cloud
-/CODE_OF_CONDUCT.md @simonplmak-cloud
-/docs/manifesto.md @simonplmak-cloud @humanity4ai
-/docs/manifesto-roadmap-map.md @simonplmak-cloud @humanity4ai
+/GOVERNANCE.md @simonmak-ascent
+/SECURITY.md @simonmak-ascent
+/CODE_OF_CONDUCT.md @simonmak-ascent
+/docs/manifesto.md @simonmak-ascent @humanity4ai
+/docs/manifesto-roadmap-map.md @simonmak-ascent @humanity4ai
