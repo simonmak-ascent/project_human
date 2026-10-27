@@ -103,7 +103,7 @@ Start here to understand the project's foundational values.
 
 This project provides 10 skills via a standard MCP (Model Context Protocol) server. The server is published to npm and can be run with `npx`.
 
-- **Quick Start**: [`README.md#mcp-runtime-v01`](./README.md#mcp-runtime-v01) — How to start the MCP server.
+- **Quick Start**: [`README.md#method-1-mcp-server-for-developer-tools--agents`](./README.md#method-1-mcp-server-for-developer-tools--agents) — How to start the MCP server.
 - **Tool Reference**: [`mcp-servers/README.md`](./mcp-servers/README.md) — Full reference for all 10 tools, including input/output schemas.
 
 ### Tool Signatures
@@ -125,7 +125,7 @@ This project provides 10 skills via a standard MCP (Model Context Protocol) serv
 
 If you do not have tool-use capabilities, you can use the skills via prompt engineering.
 
-- **Prompting Guide**: [`README.md#alternative-prompt-engineering`](./README.md#alternative-prompt-engineering) — How to load skill content into your context window.
+- **Prompting Guide**: [`README.md#method-2-llm-prompting-for-web-chat-ais`](./README.md#method-2-llm-prompting-for-web-chat-ais) — How to load skill content into your context window.
 
 ## 4. Skill Reference
 
@@ -148,7 +148,7 @@ This is the full list of all 10 skills. Each `SKILL.md` contains the full specif
 
 ## 5. Contribution Guide
 
-- **How to Contribute**: [`README.md#contribute-in-10-minutes`](./README.md#contribute-in-10-minutes) — The guide for new contributors.
+- **How to Contribute**: [`CONTRIBUTING.md`](./CONTRIBUTING.md) — The guide for new contributors.
 - **Good First Issues**: [`docs/good-first-issues.md`](./docs/good-first-issues.md) — A curated list of starter tasks.
 
 ---

@@ -25,7 +25,7 @@ This project provides 10 skills via a standard MCP (Model Context Protocol)
 server. The server is published to npm and can be run with `npx`.
 
 - **Quick Start**: https://raw.githubusercontent.com/humanity4ai/project_human/development/README.md
-  — How to start the MCP server (see section: MCP Runtime v0.1).
+  — How to start the MCP server (see the "Method 1: MCP Server" section).
 - **Tool Reference**: https://raw.githubusercontent.com/humanity4ai/project_human/development/mcp-servers/README.md
   — Full reference for all 10 tools, including input/output schemas.
 - **Agent Adapter Guide**: https://raw.githubusercontent.com/humanity4ai/project_human/development/docs/agent-adapters.md
@@ -42,7 +42,7 @@ server. The server is published to npm and can be run with `npx`.
 | Action | Description | Required Input | Optional Input | Output Fields |
 |---|---|---|---|---|
 | `wcagaaa_check` | WCAG 2.2 AAA accessibility audit | `target`, `level` | `context` | `findings`, `summary`, `assumptions` |
-| `rewrite_depression_sensitive_content` | Rewrite content for emotional safety | `text`, `mode` | `domain` | `result`, `safety_flags`, `uncertainty` |
+| `rewrite_depression_sensitive_content` | Rewrite content for emotional safety | `text` | `mode`, `domain` | `result`, `safety_flags`, `uncertainty` |
 | `supportive_reply` | Generate a supportive, non-clinical reply | `message`, `risk_level` | `locale` | `reply`, `escalation_guidance`, `boundaries_notice` |
 | `cognitive_accessibility_audit` | Audit content for cognitive accessibility | `content` | `target_context` | `findings`, `recommendations` |
 | `cultural_context_check` | Adapt a message for cultural context | `message`, `audience` | `region` | `adapted_message`, `notes`, `uncertainty` |
@@ -60,7 +60,7 @@ If you do not have tool-use capabilities, you can use the skills via prompt
 engineering.
 
 - **Prompting Guide**: https://raw.githubusercontent.com/humanity4ai/project_human/development/README.md
-  — How to load skill content into your context window (see section: Alternative — Prompt Engineering).
+  — How to load skill content into your context window (see the "Method 2: LLM Prompting" section).
 
 ---
 
@@ -91,7 +91,7 @@ specification, including purpose, boundaries, and principles.
 
 - **Principles**: https://raw.githubusercontent.com/humanity4ai/project_human/development/knowledge-core/principles.md
 - **Taxonomy**: https://raw.githubusercontent.com/humanity4ai/project_human/development/knowledge-core/taxonomy.md
-- **Uncertainty Schema**: https://raw.githubusercontent.com/humanity4ai/project_human/development/knowledge-core/uncertainty-schema.md
+- **Uncertainty Schema**: https://raw.githubusercontent.com/humanity4ai/project_human/development/knowledge-core/uncertainty-schema.yaml
 
 ---
 
