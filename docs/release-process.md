@@ -15,7 +15,7 @@ feature/* ──► development  (integration branch — all contributor work)
                 main  (stable, production-ready)
 ```
 
-All contributor PRs target `development`. Only `@simonplmak-cloud` and `@humanity4ai` may open PRs targeting `main`.
+All contributor PRs target `development`. Only `@simonmak-ascent` and `@humanity4ai` may open PRs targeting `main`.
 
 ---
 
@@ -23,7 +23,7 @@ All contributor PRs target `development`. Only `@simonplmak-cloud` and `@humanit
 
 | Actor | Can open `development → main` PR | Can merge |
 |-------|----------------------------------|-----------|
-| `@simonplmak-cloud` | Yes | Yes (with approval) |
+| `@simonmak-ascent` | Yes | Yes (with approval) |
 | `@humanity4ai` | Yes | Yes (with approval) |
 | Community contributors | No — PRs to `main` are blocked | No |
 
@@ -101,7 +101,7 @@ The `validate` CI job re-runs on the promotion PR as a final release gate. Do no
 ### 6. Get approval and merge
 
 - One maintainer approval is required
-- Both `@simonplmak-cloud` and `@humanity4ai` may approve and merge
+- Both `@simonmak-ascent` and `@humanity4ai` may approve and merge
 
 ### 7. Tag the release
 
